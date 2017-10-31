@@ -1,0 +1,168 @@
+
+@media screen and (max-width:1600px) { 
+
+
+
+}
+
+
+@media screen and (max-width:1400px) { 
+
+
+
+}
+
+
+@media screen and (max-width:1366px) { 
+
+
+
+}
+
+@media screen and (max-width:1280px) { 
+
+
+
+}
+
+@media screen and (max-width:1024px) { 
+
+
+.form-fields label { width:100%; }
+.form-fields input, .form-fields select, .form-fields textarea  { width:100%; }
+.form-fields-submit {padding: 00px 0px 0 0;}
+.form-fields .select2-container { width:100% !important }
+
+}
+
+@media screen and (max-width:999px) { 
+
+.bottom-bar { text-align:center; }
+.bottom-bar .col-sm-4 { width:100%;  }
+.copy p { text-align:center; }
+
+ul.bottom-links { display:inline; }
+.flag, .btm-links {text-align:center;}
+.btm-links ul { display:inline-block }
+
+.nav-sections .navbar-nav { margin-left:0%;}
+.navbar-collapse { text-align:center; }
+.navbar-collapse ul { display:inline-block }
+.navbar-nav { float:none; }
+.navbar-brand {padding:5px 0px }
+
+.form-fields input, .form-fields select, .form-fields textarea { width:100% }
+.form-fields-submit {padding: 30px 0px 0 0;}
+
+.all-ticket-reslut-table { overflow:scroll; width:100%; }
+.banner-liner  { padding:10% 15px 0px}
+
+
+}
+
+
+@media screen and (max-width:800px) { 
+
+.add-btn a { padding: 7px 8px 9px;}
+.all-search-box .allsearch-btn input[type="submit"] {  padding:8px 7px;}
+.all-search-box .allsearch-btn input, .all-search-box .allsearch-btn select, .all-search-box .allsearch-btn input[type="submit"] { width:123px }
+
+}
+
+
+
+@media screen and (min-width:768px) { 
+
+
+
+}
+
+@media screen and (max-width:768px) { 
+
+
+
+}
+
+
+@media screen and (max-width:767px) { 
+
+.welcome-block { display:none; }
+.topsection .col-xs-2, .topsection .col-xs-5 { width:100%; }
+.signin-block .login-block { position:absolute; top:0px; right:0px }
+.top-bar-left { display:none; }
+/*.search-box { top:-18px }
+.search-input { width:140px; }*/
+.topsection .col-xs-6 {width:100%; }
+.navbar-brand { text-align:left; width:75px; }
+.navbar-brand img { width:100% }
+.search-box { top:40px; }
+
+.topsection {  padding: 10px 0;}
+.login-block ul { margin:5px 0px }
+
+.dashboard-box {margin:10px 0 15px;}
+
+.banner-liner  { padding:15px}
+
+}
+
+@media screen and (max-width:640px) { 
+
+.dash-board-profile.col-xs-3 { width:100%; }
+.dash-board-data.col-xs-9{ width:100%; }
+
+.ticketadd.col-xs-9 {width:100%;}
+
+.faq-right {padding:0px}
+.faqblock .dash-board-profile.col-xs-3 { width:100%; }
+.faqblock .col-xs-9{ width:100%; }
+
+.all-tick-listing.col-xs-9 { width:100%;}
+.edit-block.col-xs-9 { width:100%;}
+
+.form-fields-submit {padding:0px 0 0;}
+.form-fields input[type="submit"], .form-fields button[type="submit"] { width:100%; }
+
+}
+
+
+
+
+
+@media screen and (max-width:540px) { 
+
+.profile-menu-box { padding:10px !important; }
+.profile-menu-box li { padding: 10px 10px !important;}
+.search-box {width:200px !important; top:50px !important; }
+.search-input { width: 154px !important; }
+
+.all-search-box .add-btn {
+    display: block !important;;
+    float:none !important;;
+	padding: 0 0 15px !important;;
+}
+.all-search-box .allsearch-btn {
+    display: block !important;;
+    float: none !important;;
+}
+.all-search-box .allsearch-btn .searchform-field { padding: 0 5px 0px 0 !important;;}
+
+
+}
+
+@media screen and (max-width:480px) { 
+
+.dash-board-data .col-xs-6{ width:100%; }
+.ftr-links { padding:10px 0px }
+
+.footer-block .col-lg-12 {padding:0px 0px   }
+.footer-block .col-lg-12.bottom-bar { padding:15px 0px !important }
+}
+
+@media screen and (max-width:380px) { 
+
+.footer-block .col-xs-3 { width:100% }
+.all-search-box .allsearch-btn .searchform-field { display:block; float:none; padding:0px 0px 10px  }
+.all-search-box .allsearch-btn input, .all-search-box .allsearch-btn select, .all-search-box .allsearch-btn input[type="submit"] { width:100% !important }
+
+}

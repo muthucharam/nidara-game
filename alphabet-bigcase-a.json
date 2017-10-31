@@ -1,0 +1,574 @@
+  {
+  "GAMEWINDOW": {
+    "WIDTH": "85%",
+    "HEIGHT": "92%"
+  },
+  "NIDARAGAMEDATA": [{
+    "SLIDERSTATE": "HomeState",
+    "BG_COLOR": "#FFF",
+    "TYPE": "INTRODUCTION_SLIDE",
+    "CAPTIONS": [{
+      "text": "Alphabetic: A",
+      "bounds": [80, 40, 300, 10],
+      "itemPostion": [0, 0],
+      "style": {}
+    }],
+    "CHARACTERS": [{
+      "ID": "char_001",
+      "TYPE": "static",
+      "IDENTITYURLWITHPOSITION": [{
+        "identity": "tina-stand",
+        "url": "59f816386216f/59f81713e43de/59f81c2a2dd32.png",
+        "position": [100, 110]
+      }]
+    },{
+      "ID": "char_002",
+      "TYPE": "static",
+      "IDENTITYURLWITHPOSITION": [{
+        "identity": "alphabetic-letter",
+        "url": "59f816386216f/59f8172d32c33/59f81d7b094d2/59f822907d741.png",
+        "position": [500, 100]
+      }]
+    },{
+      "ID": "char_003",
+      "TYPE": "static",
+      "IDENTITYURLWITHPOSITION": [{
+        "identity": "alphabetic-a",
+        "url": "59f816386216f/59f8172d32c33/59f81d7b094d2/59f825ac09c38.png",
+        "position": [90, 2]
+      }]
+    }, {
+      "ID": "char_004",
+      "TYPE": "grayaudiowithsprite",
+      "IDENTITYURLWITHPOSITION": {
+        "sprite": {
+          "identity": "play-sprite",
+          "type": "sprite",
+          "url": "59f816386216f/59f81713e43de/59f81ac035c6d.png",
+          "position": [700, 375]
+        },
+        "gray": {
+          "identity": "play-gray",
+          "type": "gray",
+          "url": "59f816386216f/59f81713e43de/59f8199f4817e.png",
+          "position": [700, 375]
+        },
+        "intro": {
+          "identity": "intro-play",
+          "type": "intro",
+          "url": "59f816386216f/59f8172d32c33/59f81d57631c2/59f81f1b15feb.mp3",
+          "position": []
+        },
+        "hover": {
+          "identity": "play-sprite-hover",
+          "type": "hover",
+          "url": "59f816386216f/59f8172d32c33/59f81d57631c2/59f8212704725.mp3",
+          "position": []
+        }
+      },
+      "ROUTESTATE":"AnimalState"
+    }]
+
+
+  }, {
+    "SLIDERSTATE": "AnimalState",
+    "BG_COLOR": "#FFF",
+    "TYPE": "ANT_SLIDE",
+    "CAPTIONS": [{
+      "text": "Alphabetic: ANT",
+      "bounds": [80, 40, 300, 10],
+      "itemPostion": [0, 0],
+      "style": {}
+    }],
+    "CHARACTERS": [{
+      "ID": "char_001",
+      "TYPE": "static",
+      "IDENTITYURLWITHPOSITION": [{
+        "identity": "tina-stand",
+        "url": "59f816386216f/59f81713e43de/59f81c2a2dd32.png",
+        "position": [100, 110]
+      }]
+    },{
+      "ID": "char_002",
+      "TYPE": "static",
+      "IDENTITYURLWITHPOSITION": [{
+        "identity": "ant",
+        "url": "59f816386216f/59f8172d32c33/59f81d7b094d2/59f822a9426a4.png",
+        "position": [500, 100]
+      }]
+    },{
+      "ID": "char_003",
+      "TYPE": "static",
+      "IDENTITYURLWITHPOSITION": [{
+        "identity": "alphabetic-a",
+        "url": "59f816386216f/59f8172d32c33/59f81d7b094d2/59f825ac09c38.png",
+        "position": [90, 2]
+      }]
+    }, {
+      "ID": "char_004",
+      "TYPE": "grayaudiowithsprite",
+      "IDENTITYURLWITHPOSITION": {
+        "sprite": {
+          "identity": "play-sprite",
+          "type": "sprite",
+          "url": "59f816386216f/59f81713e43de/59f81ac035c6d.png",
+         
+          "position": [700, 375]
+        },
+        "gray": {
+          "identity": "play-gray",
+          "type": "gray",
+          "url": "59f816386216f/59f81713e43de/59f8199f4817e.png",
+          "position": [700, 375]
+        },
+        "intro": {
+          "identity": "ant-play",
+          "type": "intro",
+          "url": "59f816386216f/59f8172d32c33/59f81d57631c2/59f82002f364e.mp3",
+          "position": []
+        },
+        "hover": {
+          "identity": "play-sprite-hover",
+          "type": "hover",
+          "url": "59f816386216f/59f8172d32c33/59f81d57631c2/59f8212704725.mp3",
+          "position": []
+        }
+      },
+      "ROUTESTATE":"ShootingState"
+    }]
+    }, {
+        "SLIDERSTATE": "ShootingState",
+        "BG_COLOR": "#FFF",
+        "TYPE": "SHOOTING_SLIDE",
+        "CAPTIONS": [{
+          "text": "Alphabetic: ANT",
+          "bounds": [80, 40, 300, 10],
+          "itemPostion": [0, 0],
+          "style": {}
+        }],
+        "CHARACTERS": [{
+          "ID": "char_001",
+          "TYPE": "static",
+          "IDENTITYURLWITHPOSITION": [{
+            "identity": "tina-stand",
+            "url": "59f816386216f/59f81713e43de/59f81c2a2dd32.png",
+            "position": [100, 110]
+          }]
+        },
+        {
+          "ID": "char_002",
+          "TYPE": "static",
+          "IDENTITYURLWITHPOSITION": [{
+            "identity": "cloud",
+            "url": "59f816386216f/59f8172d32c33/59f81d7b094d2/59f823ab11f01.png",
+            "position": [350, 20]
+          }]
+        },{
+          "ID": "char_003",
+          "TYPE": "static",
+          "IDENTITYURLWITHPOSITION": [{
+            "identity": "cloud",
+            "url": "59f816386216f/59f8172d32c33/59f81d7b094d2/59f823ab11f01.png",
+            "position": [550, 40]
+          }]
+        },
+        {
+            "ID": "char_004",
+            "TYPE": "static",
+            "IDENTITYURLWITHPOSITION": [{
+              "identity": "monster",
+              "url": "59f816386216f/59f8172d32c33/59f81d7b094d2/59f8232b7409c.png",
+              "position": [550, 40]
+            }]
+          },{
+            "ID": "char_005",
+            "TYPE": "monster-welcome",
+            "IDENTITYURLWITHPOSITION": [{
+              "identity": "monster-welcome",
+              "url": "59f816386216f/59f8172d32c33/59f81d57631c2/59f820510aa8f.mp3",
+              "position": []
+            }]
+          },{
+            "ID": "char_006",
+            "TYPE": "letter",
+            "IDENTITYURLWITHPOSITION": [{
+              "identity": "monster-letter",
+              "url": "59f816386216f/59f8172d32c33/59f81d57631c2/59f834eb4e066.mp3",
+              
+              "position": []
+            }]
+          },{
+            "ID": "char_007",
+            "TYPE": "monster-success",
+            "IDENTITYURLWITHPOSITION": [{
+              "identity": "monster-success",
+              "url": "59f816386216f/59f8172d32c33/59f81d57631c2/59f8206d25dc4.mp3",
+              
+              "position": []
+            }]
+          },{
+            "ID": "char_008",
+            "TYPE": "static",
+            "IDENTITYURLWITHPOSITION": [{
+              "identity": "tina-jump",
+              "url": "59f816386216f/59f81713e43de/59f81c1308d67.png",
+              "position": [300, 100]
+            }]
+          },
+          {
+            "ID": "char_009",
+            "TYPE": "color-gray",
+            "IDENTITYURLWITHPOSITION": [{
+              "identity": "color-gray",
+              "url": "59f816386216f/59f81713e43de/59f81a13b834d.png",
+              "position": [700, 375]
+            }]
+          },{
+            "ID": "char_010",
+            "TYPE": "color-green",
+            "IDENTITYURLWITHPOSITION": [{
+              "identity": "color-green",
+              "url": "59f816386216f/59f81713e43de/59f819fb97698.png",
+              "position": [700, 375]
+            }]
+          },
+          {
+          "ID": "char_011",
+          "TYPE": "grayaudiowithsprite",
+          "IDENTITYURLWITHPOSITION": {
+            "sprite": {
+              "identity": "play-sprite",
+              "type": "sprite",
+              "url": "59f816386216f/59f81713e43de/59f81ac035c6d.png",
+             
+              "position": [700, 375]
+            },
+            "gray": {
+              "identity": "play-gray",
+              "type": "gray",
+              "url": "59f816386216f/59f81713e43de/59f8199f4817e.png",
+              "position": [700, 375]
+            },
+           
+            "hover": {
+              "identity": "play-sprite-hover",
+              "type": "hover",
+              "url": "59f816386216f/59f8172d32c33/59f81d57631c2/59f8212704725.mp3",
+              "position": []
+            }
+        
+          },
+          "ROUTESTATE":"PaintingState"
+        }]
+        },{
+            "SLIDERSTATE": "PaintingState",
+            "BG_COLOR": "#FFF",
+            "TYPE": "PAINTING_SLIDE",
+            "CAPTIONS": [{
+              "text": "Alphabetic: ANT",
+              "bounds": [80, 40, 300, 10],
+              "itemPostion": [0, 0],
+              "style": {}
+            }],
+            "CHARACTERS": [{
+              "ID": "char_001",
+              "TYPE": "static",
+              "IDENTITYURLWITHPOSITION": [{
+                "identity": "a-outline",
+                "url": "59f816386216f/59f8172d32c33/59f81d7b094d2/59f822fdb33a1.png",
+                "position": [100, 50]
+              }]
+            },{
+              "ID": "char_002",
+              "TYPE": "static",
+              "IDENTITYURLWITHPOSITION": [{
+                "identity": "ant-outline",
+                "url": "59f816386216f/59f8172d32c33/59f81d7b094d2/59f822e0d1493.png",
+                "position": [400, 180]
+              }]
+            },{
+              "ID": "char_003",
+              "TYPE": "static",
+              "IDENTITYURLWITHPOSITION": [{
+                "identity": "palette",
+                "url": "59f816386216f/59f8172d32c33/59f81d7b094d2/59f823c1206d8.png",
+                "position": [600, 20]
+              }]
+            },
+            {
+                "ID": "char_004",
+                "TYPE": "color-gray",
+                "IDENTITYURLWITHPOSITION": [{
+                  "identity": "color-gray",
+                  "url": "59f816386216f/59f81713e43de/59f81a13b834d.png",
+                  "position": [700, 375]
+                }]
+              },{
+                "ID": "char_005",
+                "TYPE": "color-welcome",
+                "IDENTITYURLWITHPOSITION": [{
+                  "identity": "color-welcome",
+                  "url": "59f816386216f/59f8172d32c33/59f81d57631c2/59f8202bd0566.mp3",
+                  "position": [90, 2]
+                }]
+              },{
+                "ID": "char_003",
+                "TYPE": "color-green",
+                "IDENTITYURLWITHPOSITION": [{
+                  "identity": "color-green",
+                  "url": "59f816386216f/59f81713e43de/59f819fb97698.png",
+                  "position": [700, 375]
+                }]
+               
+              
+              },{
+                "ID": "char_004",
+                "TYPE": "grayaudiowithsprite",
+                "IDENTITYURLWITHPOSITION": {
+                  "sprite": {
+                    "identity": "play-sprite",
+                    "type": "sprite",
+                    "url": "59f816386216f/59f81713e43de/59f81ac035c6d.png",
+                   
+                    "position": [700, 375]
+                  },  "hover": {
+                    "identity": "play-sprite-hover",
+                    "type": "hover",
+                    "url": "59f816386216f/59f8172d32c33/59f81d57631c2/59f8212704725.mp3",
+                    "position": []
+                  }
+            }, "ROUTESTATE":"TracingState"
+              }]
+             },{
+                "SLIDERSTATE": "TracingState",
+                "BG_COLOR": "#FFF",
+                "TYPE": "TRACING_SLIDE",
+                "CAPTIONS": [{
+                  "text": "Alphabetic: ANT",
+                  "bounds": [80, 40, 300, 10],
+                  "itemPostion": [0, 0],
+                  "style": {}
+                }],
+                "CHARACTERS": [{
+                  "ID": "char_001",
+                  "TYPE": "static",
+                  "IDENTITYURLWITHPOSITION": [{
+                    "identity": "a-trace",
+                    "url": "59f816386216f/59f8172d32c33/59f81d7b094d2/59f82315e33b7.png",
+                    "position": [100, 10]
+                  }]
+                },{
+                  "ID": "char_002",
+                  "TYPE": "trace-gray",
+                  "IDENTITYURLWITHPOSITION": [{
+                    "identity": "trace-gray",
+                    "url": "59f816386216f/59f81713e43de/59f81d7b094d2/59f81a47a0a82.png",
+                    "position": [700, 375]
+                  }]
+                },{
+                  "ID": "char_003",
+                  "TYPE": "trace-green",
+                  "IDENTITYURLWITHPOSITION": [{
+                    "identity": "trace-green",
+                    "url": "59f816386216f/59f81713e43de/59f81a822edb6.png",
+                    "position": [700, 375]
+                  }]
+                },{
+                    "ID": "char_004",
+                    "TYPE": "trace-welcome",
+                    "IDENTITYURLWITHPOSITION": [{
+                      "identity": "trace-welcome",
+                      "url": "59f816386216f/59f8172d32c33/59f81d57631c2/59f82096e3c24.mp3",
+                      "position": []
+                    }]
+                  },{
+                "ID": "char_005",
+                "TYPE": "grayaudiowithsprite",
+                "IDENTITYURLWITHPOSITION": {
+                  "sprite": {
+                    "identity": "play-sprite",
+                    "type": "sprite",
+                    "url": "59f816386216f/59f81713e43de/59f81ac035c6d.png",
+                   
+                    "position": [700, 375]
+                  },  "hover": {
+                    "identity": "play-sprite-hover",
+                    "type": "hover",
+                    "url": "59f816386216f/59f8172d32c33/59f81d57631c2/59f8212704725.mp3",
+                    "position": []
+                  }
+            }, "ROUTESTATE":"WordingState"
+              }]
+             },{
+                "SLIDERSTATE": "WordingState",
+                "BG_COLOR": "#FFF",
+                "TYPE": "WORDING_SLIDE",
+                "CAPTIONS": [{
+                  "text": "Alphabetic: ANT",
+                  "bounds": [80, 40, 300, 10],
+                  "itemPostion": [0, 0],
+                  "style": {}
+                }],
+                "CHARACTERS": [{
+                  "ID": "char_001",
+                  "TYPE": "static",
+                  "IDENTITYURLWITHPOSITION": [{
+                    "identity": "outline-word",
+                    "url": "59f816386216f/59f81713e43de/59f81b43e4c3b.png",
+                    "position": [130, 100]
+                  }]
+                },{
+                  "ID": "char_002",
+                  "TYPE": "static",
+                  "IDENTITYURLWITHPOSITION": [{
+                    "identity": "outline-word",
+                    "url": "59f816386216f/59f81713e43de/59f81b43e4c3b.png",
+                    "position": [130, 300]
+                  }]
+                },{
+                  "ID": "char_003",
+                  "TYPE": "static",
+                  "IDENTITYURLWITHPOSITION": [{
+                    "identity": "outline-word",
+                    "url": "59f816386216f/59f81713e43de/59f81b43e4c3b.png",
+                    "position": [410, 100]
+                  }]
+                },{
+                    "ID": "char_004",
+                    "TYPE": "static",
+                    "IDENTITYURLWITHPOSITION": [{
+                      "identity": "outline-word",
+                      "url": "59f816386216f/59f81713e43de/59f81b43e4c3b.png",
+                      "position": [410,300]
+                    }]
+                  },{
+                    "ID": "char_005",
+                    "TYPE": "static",
+                    "IDENTITYURLWITHPOSITION": [{
+                      "identity": "outline-word-wrong",
+                      "url": "59f816386216f/59f81713e43de/59f81b6f3bb1f.png",
+                      "position": [200, 100]
+                    }]
+                  },{
+                      "ID": "char_006",
+                      "TYPE": "static",
+                      "IDENTITYURLWITHPOSITION": [{
+                        "identity": "outline-word-right",
+                        "url": "59f816386216f/59f81713e43de/59f81b5947dcd.png",
+                        "position": [200,100]
+                      }]
+                    },{
+                        "ID": "char_007",
+                        "TYPE": "word-welcome",
+                        "IDENTITYURLWITHPOSITION": [{
+                          "identity": "word-welcome",
+                          "url": "59f816386216f/59f8172d32c33/59f81d57631c2/59f820c862174.mp3",
+                          "position": []
+                        }]
+                      },{
+                        "ID": "char_008",
+                        "TYPE": "submit-gray",
+                        "IDENTITYURLWITHPOSITION": [{
+                          "identity": "submit-gray",
+                          "url": "59f816386216f/59f81713e43de/59f81aed37b95.png",
+                          "position": [700,375]
+                        }]
+                      },{"ID": "char_009",
+                      "TYPE": "submit",
+                      "IDENTITYURLWITHPOSITION": [{
+                        "identity": "submit",
+                        "url": "59f816386216f/59f81713e43de/59f81ad9df4e1.png",
+                        "position": [700,375]
+                      }]
+                    },{
+                        "ID": "char_010",
+                        "TYPE": "correct-answer",
+                        "IDENTITYURLWITHPOSITION": [{
+                          "identity": "correct-answer",
+                          "url": "59f816386216f/59f8172d32c33/59f81d57631c2/59f820ee9fa2a.mp3",
+                          "position": [700,375]
+                        }]
+                      },{"ID": "char_011",
+                      "TYPE": "wrong-answer",
+                      "IDENTITYURLWITHPOSITION": [{
+                        "identity": "wrong-answer",
+                        "url": "59f816386216f/59f8172d32c33/59f81d57631c2/59f821051551d.mp3",
+                        "position": [700,375]
+                      }]
+                    },{
+                "ID": "char_012",
+                "TYPE": "grayaudiowithsprite",
+                "IDENTITYURLWITHPOSITION": {
+                  "sprite": {
+                    "identity": "play-sprite",
+                    "type": "sprite",
+                    "url": "59f816386216f/59f81713e43de/59f81ac035c6d.png",
+                   
+                    "position": [700, 375]
+                  }, "gray": {
+                    "identity": "play-gray",
+                    "type": "gray",
+                    "url": "59f816386216f/59f81713e43de/59f8199f4817e.png",
+                    "position": [700, 375]
+                  },
+                   "hover": {
+                    "identity": "play-sprite-hover",
+                    "type": "hover",
+                    "url": "59f816386216f/59f8172d32c33/59f81d57631c2/59f8212704725.mp3",
+                    "position": []
+                  }
+            }, "ROUTESTATE":"FinalState"
+              }]
+             },{
+                "SLIDERSTATE": "FinalState",
+                "BG_COLOR": "#FFF",
+                "TYPE": "FINAL_SLIDE",
+                "CAPTIONS": [{
+                  "text": "Alphabetic: ANT",
+                  "bounds": [80, 40, 300, 10],
+                  "itemPostion": [0, 0],
+                  "style": {}
+                }],
+                "CHARACTERS": [{
+                  "ID": "char_001",
+                  "TYPE": "static",
+                  "IDENTITYURLWITHPOSITION": [{
+                    "identity": "tina-jump",
+                    "url": "59f816386216f/59f81713e43de/59f81c1308d67.png",
+                    "position": [350, 100]
+                  }]
+                },{
+                  "ID": "char_002",
+                  "TYPE": "replay-gray",
+                  "IDENTITYURLWITHPOSITION": [{
+                    "identity": "replay-gray",
+                    "url": "59f816386216f/59f81713e43de/59f81b148bf21.png",
+                    "position": [700, 375]
+                  }]
+                },{
+                  "ID": "char_003",
+                  "TYPE": "replay",
+                  "IDENTITYURLWITHPOSITION": [{
+                    "identity": "replay",
+                    "url": "59f816386216f/59f81713e43de/59f81b2ac8280.png",
+                    "position": [700, 375]
+                  }]
+                },{
+                    "ID": "char_004",
+                    "TYPE": "success",
+                    "IDENTITYURLWITHPOSITION": [{
+                      "identity": "success",
+                      "url": "59f816386216f/59f81713e43de/59f81b43e4c3b.png",
+                      "position": []
+                    }], "ROUTESTATE":"false"
+                  }]
+             }]
+                }
+              
+    
+
+    
+
+  
+
+

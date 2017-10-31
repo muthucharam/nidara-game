@@ -1,0 +1,63 @@
+body{padding:0px;margin:0px;font-family:'gillsanslight59465bc4d96ac';}
+
+ .dashboard-middle h2{font-size:22px; width:70%;margin-bottom:20px;}
+ .dashboard-middle p{font-size: 20px;font-family:'gillsanslight59465bc4d96ac';margin-bottom:15px; }
+
+.child-friend{margin-top: 30px;margin-bottom: 20px;}
+.child-friend a{font-size: 18px;color: #333333;}
+
+#dob{max-width: 100%;padding-right:10px;}
+.add-task{text-align: center;font-weight: bold;border:1px solid #bbb;padding: 2px;}
+.add-task a{color:#333333;font-size: 20px;text-decoration:none;}
+.gender{padding-left:0px;}
+.gender span{font-size: 18px;padding-left: 20px;font-family:'gillsanslight59465bc4d96ac';font-size: 18px;color:#808080;}
+.date{margin-right:-20px;}
+
+.family{padding-left:0px;}
+.family span{font-size: 18px;font-family:'gillsanslight59465bc4d96ac';font-size: 18px;color:#808080;padding-left:3px;}
+.kid_family_info input[type="checkbox"] {float: left;  margin-left: 0;width: auto;}
+.schedule{padding-left:10px;padding-top:10px;padding-bottom:10px;padding-right:10px;}
+
+.manage input[type="radio"] {float: left;  margin-left: 0;width: auto;}
+.manage_check{padding-left: 30px;padding-bottom: 20px;}
+ .manage_radio span{padding-left: 5px;font-size:18px; padding-bottom:15px;color: #808080;}
+.shedule_info input[type="checkbox"] {float: left;  margin-left: 0;width: auto;}
+.shedule_info label{width:auto;}
+.daily-routine label{width:auto;}
+
+.daily-routine input[type="radio"] {float: left;  margin-left: 0;width: auto;}
+.nutrition_info label {width:auto;}
+.nutrition_info input[type="checkbox"] {float: left;  margin-left: 0;width: auto;}
+.intrest_dev label {width:auto;}
+.intrest_dev input[type="radio"] {float: left;  margin-left: 0;width: auto;}
+
+#medical{width: 100%;min-height: 100px; resize: none;}
+#deactive{width: 100%;min-height: 100px; resize: none;}
+.education{padding:0px 15px;}
+ .kid_edu_info label{width:auto;}
+ .kid_edu_info input[type="radio"] {float: left;  margin-left: 0;width: auto;}
+.family_info{margin-left:25px;}
+.bill_add_info input[type='text']{margin-bottom:20px;}.home_add_info input[type='text']{margin-bottom:20px;}.parent_account_info input[type='text']{ /* margin-bottom:20px; */}
+.kid_friend_info input[type='text']{margin-bottom:20px;}.friend_type{margin-bottom:20px;}.kid_caregiver_info input[type='text']{margin-bottom:20px;}
+#language{width:100%;} .school_info input[type='text']{margin-bottom:20px;}
+.inv_dashboard_info input[type='text']{margin-bottom:20px;} .deactive_info input[type='text']{margin-bottom:20px;} 
+.react-acc{padding-bottom:20px;}
+.dashbord-bottom{margin-bottom: 100px;}
+@media screen and (max-width:640px){
+    .dashboard-middle h2{width:100%;}
+    .dashboard-middle P{width:100%;}
+    
+    .bill_add_info input[type='text']{margin-bottom:10px;}.home_add_info input[type='text']{margin-bottom:10px;}.parent_account_info input[type='text']{margin-bottom:10px;}
+.kid_friend_info input[type='text']{margin-bottom:10px;}.friend_type{margin-bottom:10px;}.kid_caregiver_info input[type='text']{margin-bottom:10px;}
+#language{width:100%;} .school_info input[type='text']{margin-bottom:10px;}.residence_info input[type='text']{margin-bottom:10px;}
+.kid_profile_left{padding-left: 0px;padding-right: 0px;}
+
+.date-first{padding-left: 0px;}
+   .family_info{margin-left:0px;}
+   #fam{margin-left:0px;}
+    .form-response{margin-left: -15px;margin-right: -15px;}
+    #guide{margin-left:10px;}
+  .child-friend p{margin-left:-15px;}
+  .add-task{margin-left:15px;margin-top:10px;}
+  .account{margin-top:20px;}
+}

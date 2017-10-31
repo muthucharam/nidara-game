@@ -1,0 +1,220 @@
+{
+  "GAMEWINDOW": {
+    "WIDTH": "85%",
+    "HEIGHT": "92%"
+  },
+  "NIDARAGAMEDATA": [{
+    "SLIDERSTATE": "HomeState",
+    "BG_COLOR": "#FFF",
+    "TYPE": "INTRODUCTION_SLIDE",
+    "CAPTIONS": [{
+      "text": "Alphabetic: A",
+      "bounds": [80, 40, 300, 10],
+      "itemPostion": [0, 0],
+      "style": {}
+    }],
+    "CHARACTERS": [{
+      "ID": "char_001",
+      "TYPE": "static",
+      "IDENTITYURLWITHPOSITION": [{
+        "identity": "tina-stand",
+        "url": "assets/schools/games/alphabetic-a/tina-stand.png",
+        "position": [100, 110]
+      }]
+    },{
+      "ID": "char_002",
+      "TYPE": "static",
+      "IDENTITYURLWITHPOSITION": [{
+        "identity": "alphabetic-letter",
+        "url": "assets/schools/games/alphabetic-a/a.png",
+        "position": [500, 100]
+      }]
+    },{
+      "ID": "char_003",
+      "TYPE": "static",
+      "IDENTITYURLWITHPOSITION": [{
+        "identity": "alphabetic-a",
+        "url": "assets/schools/games/alphabetic-a/alphabetic-a.png",
+        "position": [90, 2]
+      }]
+    }, {
+      "ID": "char_004",
+      "TYPE": "grayaudiowithsprite",
+      "IDENTITYURLWITHPOSITION": {
+        "sprite": {
+          "identity": "play-sprite",
+          "type": "sprite",
+          "url": "assets/schools/games/play-sprite.png",
+          "position": [700, 375]
+        },
+        "gray": {
+          "identity": "play-gray",
+          "type": "gray",
+          "url": "assets/schools/games/alphabetic-a/play-gray.png",
+          "position": [700, 375]
+        },
+        "intro": {
+          "identity": "intro-play",
+          "type": "intro",
+          "url": "assets/schools/games/alphabetic-a/a-intro.mp3",
+          "position": []
+        },
+        "hover": {
+          "identity": "play-sprite-hover",
+          "type": "hover",
+          "url": "assets/schools/games/alphabetic-a/play.mp3",
+          "position": []
+        }
+      },
+      "ROUTESTATE":"AnimalState"
+    }]
+
+
+  }, {
+    "SLIDERSTATE": "AnimalState",
+    "BG_COLOR": "#FFF",
+    "TYPE": "ANT_SLIDE",
+    "CAPTIONS": [{
+      "text": "Alphabetic: ANT",
+      "bounds": [80, 40, 300, 10],
+      "itemPostion": [0, 0],
+      "style": {}
+    }],
+    "CHARACTERS": [{
+      "ID": "char_001",
+      "TYPE": "static",
+      "IDENTITYURLWITHPOSITION": [{
+        "identity": "tina-stand",
+        "url": "assets/schools/games/alphabetic-a/tina-stand.png",
+        "position": [100, 110]
+      }]
+    },{
+      "ID": "char_002",
+      "TYPE": "static",
+      "IDENTITYURLWITHPOSITION": [{
+        "identity": "ant",
+        "url": "assets/schools/games/alphabetic-a/ant.png",
+        "position": [500, 100]
+      }]
+    },{
+      "ID": "char_003",
+      "TYPE": "static",
+      "IDENTITYURLWITHPOSITION": [{
+        "identity": "alphabetic-a",
+        "url": "assets/schools/games/alphabetic-a/alphabetic-a.png",
+        "position": [90, 2]
+      }]
+    }, {
+      "ID": "char_004",
+      "TYPE": "grayaudiowithsprite",
+      "IDENTITYURLWITHPOSITION": {
+        "sprite": {
+          "identity": "play-sprite",
+          "type": "sprite",
+          "url": "assets/schools/games/play-sprite.png",
+          "position": [700, 375]
+        },
+        "gray": {
+          "identity": "play-gray",
+          "type": "gray",
+          "url": "assets/schools/games/alphabetic-a/play-gray.png",
+          "position": [700, 375]
+        },
+        "intro": {
+          "identity": "intro-play",
+          "type": "intro",
+          "url": "assets/schools/games/alphabetic-a/a-intro.mp3",
+          "position": []
+        },
+        "hover": {
+          "identity": "play-sprite-hover",
+          "type": "hover",
+          "url": "assets/schools/games/alphabetic-a/play.mp3",
+          "position": []
+        }
+      },
+      "ROUTESTATE":"ShootingState"
+    }]
+
+
+  },{
+    "SLIDERSTATE": "ShootingState",
+    "BG_COLOR": "#FFF",
+    "TYPE": "SHOOTING_SLIDE",
+    "CAPTIONS": [{
+      "text": "Alphabetic: ANT",
+      "bounds": [80, 40, 300, 10],
+      "itemPostion": [0, 0],
+      "style": {}
+    }],
+    "CHARACTERS": [{
+      "ID": "char_001",
+      "TYPE": "static",
+      "IDENTITYURLWITHPOSITION": [{
+        "identity": "tina-stand",
+        "url": "assets/schools/games/alphabetic-a/tina-stand.png",
+        "position": [100, 110]
+      }]
+    },
+    {
+      "ID": "char_002",
+      "TYPE": "static",
+      "IDENTITYURLWITHPOSITION": [{
+        "identity": "cloud",
+        "url": "assets/schools/games/alphabetic-a/cloud.png",
+        "position": [350, 20]
+      }]
+    },{
+      "ID": "char_003",
+      "TYPE": "static",
+      "IDENTITYURLWITHPOSITION": [{
+        "identity": "cloud",
+        "url": "assets/schools/games/alphabetic-a/cloud.png",
+        "position": [550, 40]
+      }]
+    },
+    {
+        "ID": "char_004",
+      "TYPE": "static",
+       
+        "IDENTITYURLWITHPOSITION": [{
+          "identity": "monsters",
+          "url": "assets/schools/games/alphabetic-a/monster.png",
+          "position": [550, 40]
+        }]
+      },
+     
+      {
+      "ID": "char_011",
+      "TYPE": "grayaudiowithsprite",
+      "IDENTITYURLWITHPOSITION": {
+        "sprite": {
+          "identity": "play-sprite",
+          "type": "sprite",
+          "url": "assets/schools/games/play-sprite.png",
+          "position": [700, 375]
+        },
+        "gray": {
+          "identity": "play-gray",
+          "type": "gray",
+          "url": "assets/schools/games/alphabetic-a/play-gray.png",
+          "position": [700, 375]
+        },
+        "intro": {
+          "identity": "intro-play",
+          "type": "intro",
+          "url": "assets/schools/games/alphabetic-a/monster-welcome.mp3",
+          "position": []
+        },
+        "hover": {
+          "identity": "play-sprite-hover",
+          "type": "hover",
+          "url": "assets/schools/games/alphabetic-a/play.mp3",
+          "position": []
+        }
+      },
+      "ROUTESTATE":"PaintingState"
+    }]
+    }]
+
+}

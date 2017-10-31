@@ -1,0 +1,26 @@
+<div class="game-header ">
+        <div class="row ">
+         
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <a (click)="logoClick()">        
+                  <img src="assets/schools/dashboard//logo.jpg" >
+              </a>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
+      
+            <div class="audio-div">
+              <ul class="audio-setting">
+                <li class="img-shadow"><a><img src="assets/schools/dashboard/volume-active-icon.png" id="header-audio-btn" (click)="volumeClick()" (mouseover)='volumeHover()' (mouseout)='volumeOut()'></a></li>
+      
+                <li class="img-shadow"><a ><img src="assets/schools/dashboard//close-icon.png"  id="exit-btn" (click)="exitClick()" (mouseover)='exitHover()' (mouseout)='exitOut()'></a></li>
+              </ul>
+            </div>
+         
+          </div>
+        
+        </div>
+      </div>
+
+      <router-outlet></router-outlet>
+
+    <nidara-game-footer></nidara-game-footer>
